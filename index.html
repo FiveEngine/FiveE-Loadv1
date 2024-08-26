@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Five Engine</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="baTu-background">
+    <img src="assets/img/cursor.png" class="baTu-cursor" />
+    <img src="assets/img/volume-x.svg" class="baTu-audio-icon" onclick="muteAudio()" />
+    <audio class="baTu-music" loop autoplay>
+      <source src="assets/audio/mekanınsahiplerigeldi.mp3" type="audio/mp3" />
+    </audio>
+
+    <div class="baTu-slideshow">
+      <video src="assets/img/LoadVideo.mp4" autoplay loop muted></video>
+    </div>
+    <!-- SANA KALMIŞ İSTER AÇ İSTER KAPALI KALSIN -->
+    <!-- <img src="assets/img/baTulogo.png" alt="Sunucu Logosu" class="baTu-sunuculogo"/> -->
+    
+    <div class="baTu-overlay">
+      <img src="assets/img/baTulogo.png" alt="baTu Roleplay" class="baTu-logo" />
+      <h1 class="baTu-header"style = "color: rgb(255, 255, 255);">Five Engine</h1>
+
+      <div class="baTu-loading">
+        <div class="loading-bar">
+            <div class="loading-bar-inner"></div>
+        </div>
+        <div class="loading-amount" style="color: rgb(255, 255, 255);">0%</div>
+    </div>    
+      <p class="baTu-desc" style = "color: rgb(255, 255, 255);">Sunucumuza Hoş Geldiniz Sunucumuzda Rollerinize Dikkat Edin Ve Buna Göre Hareketlerde Bulunun</p>
+      <div class="baTu-admins">
+        <div class="baTu-admin-list">
+          <div class="baTu-admin">
+        </div>
+        <div class="baTu-discord">
+          <img src="assets/img/discord.png" alt="Discord" /><span>- </span>
+          <a style = "color: rgb(255, 255, 255);" href="https://discord.gg/baTu">discord.gg/fiven</a>
+  
+          <div class="baTu-tooltip">
+            <img
+              src="assets/img/copy.svg"
+              alt="Copy link"
+              class="copy-discord-link"
+              onClick="copyDiscordLink()"
+            />
+            <span class="baTu-tooltip-text" style = "color: rgb(255, 255, 255);" >Daveti Kopyala</span>
+          </div>
+        </div>
+      </div>
+      <div class="baTu-overlay21">
+          <h2 class="baTu-admin-header" style = "color: rgb(255, 255, 255);" >Yetkililerimiz</h2>
+          <div class="baTu-admin-list">
+            <div class="baTu-admin">
+              <img src="assets/img/baTu.webp" alt="Admin 1" class="baTu-admin-avatar" />
+              <p style = "color: rgb(255, 255, 255);" >Developer</p>
+              <p1 style = "color: rgb(255, 255, 255);" >baTu</p>
+            </div>
+            <div class="baTu-admin">
+              <img src="https://cdn.discordapp.com/avatars/797440206759526410/cb8605e16ba1c974ba64a2a4e9485655.png?size=1024" alt="Admin 2" class="baTu-admin-avatar" />
+              <p style = "color: rgb(255, 255, 255);" >Developer</p>
+              <p1 style = "color: rgb(255, 255, 255);" >Zvaine</p>
+            </div>
+            <div class="baTu-admin">
+              <img src="https://cdn.discordapp.com/avatars/344205679315124224/a_8d51e6a368aa0fa856d8ff3e84e39b52.gif?size=1024" alt="Admin 1" class="baTu-admin-avatar" />
+              <p style = "color: rgb(255, 255, 255);" >Developer</p>
+              <p1 style = "color: rgb(255, 255, 255);" >Erdem</p>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
